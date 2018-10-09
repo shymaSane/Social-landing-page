@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+*{
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    font-family: 'Slabo 27px', serif;
+}
+
+:root {
+    --orange: #FE9000;
+    --darkOrange: #C26B1B;
+    --blue: #169A8C;
+    --mint: #BDE2CD;
+    --darkGrey: #484349;
+    --white: #F7F0F0;
+}
+
