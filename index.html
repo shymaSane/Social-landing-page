@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -8,8 +8,37 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <!-- BootStrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm fixed-top navbar-custom">
+        <!-- brand name -->
+        <a href="#" class="navbar-brand"><strong>McM</strong></a>
+        <!-- nav button on medium or small screen -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target = "#navBarContent" aria-controls="navBarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- nav bar components -->
+        <div class="collapse navbar-collapse justify-content-center" id="navBarContent">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a href="#home" class="nav-link no-gutters ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#explore" class="nav-link">Explore</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#create" class="nav-link">Create</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#share" class="nav-link">Share</a>
+                </li>       
+            </ul>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
 
 
 
@@ -36,7 +65,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Main javascript file -->
-    <script src="main.js"></script> 
+    <script src="js/main.js"></script> 
 </body>
 
 </html>

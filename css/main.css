@@ -11,10 +11,38 @@ html, body {
 
 :root {
     --orange: #FE9000;
-    --darkOrange: #C26B1B;
-    --blue: #169A8C;
+    --darkOrangeish: rgb(194, 107, 27);
+    --blueGreenish: #169A8C;
     --mint: #BDE2CD;
-    --darkGrey: #484349;
+    --darkGrey: rgb(72, 67, 73);
     --white: #F7F0F0;
 }
+
+.navbar {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+.navbar .navbar-brand{
+    color: #C26B1B;
+}
+
+ .navbar-toggler .navbar-toggler-icon {
+   color: #C26B1B !important;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 30px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #C26B1B;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: rgba(194, 107, 27, .5);
+    transform: scale(1.1);
+    font-weight: 600;
+}
+
+
 
