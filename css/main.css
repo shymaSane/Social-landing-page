@@ -23,26 +23,42 @@ html, body {
 }
 .navbar .navbar-brand{
     color: #C26B1B;
+    font-size: 1.5rem;
+    padding-right: 3rem;
 }
 
  .navbar-toggler .navbar-toggler-icon {
    color: #C26B1B !important;
 }
 
-.navbar-nav .nav-item {
+/* .navbar-nav .nav-item {
     padding-right: 30px;
-}
+} */
 .navbar-nav .nav-item .nav-link{
     color: #C26B1B;
     font-weight: 400;
-    padding-left: 10px;
 }
 
 .navbar-nav .nav-item .nav-link:hover{
     background-color: rgba(194, 107, 27, .5);
-    transform: scale(1.1);
     font-weight: 600;
+    margin-top: -8px !important;
+    padding-top: 19px !important;
+    margin-bottom: -8px !important;
+    padding-bottom: 19px !important;
 }
 
+/* small devices-tables */
+@media only screen and (max-width : 575px) {
+    .navbar-nav .nav-item .nav-link:hover{
+        margin-top: -4px !important;
+        padding-top: 12px !important;
+        margin-bottom: -4px !important;
+        padding-bottom: 12px !important;
+        padding-left: 10px !important;
+    }
 
-
+    .navbar-nav .nav-item .nav-link{
+        padding-left: 20px !important;
+    }
+}
