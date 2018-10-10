@@ -18,6 +18,7 @@ html, body {
     --white: #F7F0F0;
 }
 
+/* start of navbar */
 .navbar {
     background-color: rgba(0, 0, 0, 1) !important;
 }
@@ -48,6 +49,15 @@ html, body {
     padding-bottom: 19px !important;
 }
 
+/* fontawesome css */
+.nav .nav-link .fab {
+    color: #C26B1B;
+}
+
+.nav .nav-link .fab:hover {
+    color: rgba(194, 107, 27, .5);
+}
+/* end of navbar */
 /* small devices-tables */
 @media only screen and (max-width : 575px) {
     .navbar-nav .nav-item .nav-link:hover{
@@ -60,5 +70,9 @@ html, body {
 
     .navbar-nav .nav-item .nav-link{
         padding-left: 20px !important;
+    }
+
+    .navbar .nav{
+        display: none;
     }
 }
