@@ -18,9 +18,14 @@ html, body {
     --white: #F7F0F0;
 }
 
+.header {
+    background: url('../images/cover6.jpeg') center/cover  fixed no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
 /* start of navbar */
 .navbar {
-    background-color: rgba(0, 0, 0, 1) !important;
+    /* background-color: rgba(0, 0, 0, 1) !important; */
 }
 .navbar .navbar-brand{
     color: #C26B1B;
@@ -28,13 +33,13 @@ html, body {
     padding-right: 3rem;
 }
 
- .navbar-toggler .navbar-toggler-icon {
-   color: #C26B1B !important;
+
+.fa-bars {
+ color: #C26B1B !important;
+ vertical-align: center;
 }
 
-/* .navbar-nav .nav-item {
-    padding-right: 30px;
-} */
+
 .navbar-nav .nav-item .nav-link{
     color: #C26B1B;
     font-weight: 400;
@@ -60,6 +65,12 @@ html, body {
 /* end of navbar */
 /* small devices-tables */
 @media only screen and (max-width : 575px) {
+    .header{
+        background: url("../images/cover-phone.jpg") center/cover fixed no-repeat;
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, .7) !important;
+    }
     .navbar-nav .nav-item .nav-link:hover{
         margin-top: -4px !important;
         padding-top: 12px !important;
